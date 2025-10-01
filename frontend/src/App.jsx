@@ -92,8 +92,8 @@ function App() {
 
     try {
       // Get the API base URL from environment variables
-      const apiUrl = import.meta.env.VITE_API_BASE_URL || window.location.origin;
-      const response = await axios.post(`${apiUrl}/chat`, {
+      const apiUrl = '/api/chat';
+      const response = await axios.post(apiUrl, {
         message: userMessage,
       });
 
