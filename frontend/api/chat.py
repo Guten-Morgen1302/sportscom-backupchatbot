@@ -28,7 +28,7 @@ system_rules = (
     "Seniors will post the final dates on official class groups.\n"
     "STRICTLY DO NOT mention any knowledge base or context.\n"
     "# ACCEPT ANSWERS IN HINGLISH IF THE QUESTION IS IN HINGLISH.\n"
-    "IF THE QUESTION IS IN HINGLISH, ANSWER IN HINGLISH."
+    "IF THE QUESTION IS IN HINGLISH, ANSWER IN HINGLISH.\n"
 )
 
 small_talk_regexes = [
